@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@types/assert@0.0.29",
+        "scope": "@types",
+        "escapedName": "@types%2fassert",
+        "name": "@types/assert",
+        "rawSpec": "0.0.29",
+        "spec": "0.0.29",
+        "type": "version"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polyserve"
+    ]
+  ],
+  "_from": "@types/assert@0.0.29",
+  "_id": "@types/assert@0.0.29",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@types/assert",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/assert-0.0.29.tgz_1474301911273_0.4317959938198328"
+  },
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/assert@0.0.29",
+    "scope": "@types",
+    "escapedName": "@types%2fassert",
+    "name": "@types/assert",
+    "rawSpec": "0.0.29",
+    "spec": "0.0.29",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/polyserve"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/assert/-/assert-0.0.29.tgz",
+  "_shasum": "8e562785baa5abda7c04a49f6665eae7431928d3",
+  "_shrinkwrap": null,
+  "_spec": "@types/assert@0.0.29",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polyserve",
+  "author": {
+    "name": "vvakame",
+    "email": "https://github.com/vvakame"
+  },
+  "dependencies": {},
+  "deprecated": "See https://github.com/DefinitelyTyped/DefinitelyTyped/issues/12826",
+  "description": "TypeScript definitions for assert and power-assert",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8e562785baa5abda7c04a49f6665eae7431928d3",
+    "tarball": "https://registry.npmjs.org/@types/assert/-/assert-0.0.29.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ryan.cavanaugh@microsoft.com"
+    }
+  ],
+  "name": "@types/assert",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "9271b4d7e9b105c59d475f4bfcb00ffbfe0530ae5d47a0aac54be3468346aa9c",
+  "typings": "index.d.ts",
+  "version": "0.0.29"
+}

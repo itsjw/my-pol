@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cleankill@^2.0.0",
+        "scope": null,
+        "escapedName": "cleankill",
+        "name": "cleankill",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/web-component-tester"
+    ]
+  ],
+  "_from": "cleankill@>=2.0.0 <3.0.0",
+  "_id": "cleankill@2.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cleankill",
+  "_nodeVersion": "5.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cleankill-2.0.0.tgz_1467312999286_0.22387893754057586"
+  },
+  "_npmUser": {
+    "name": "polymer",
+    "email": "admin@polymer-project.org"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cleankill@^2.0.0",
+    "scope": null,
+    "escapedName": "cleankill",
+    "name": "cleankill",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/wct-local",
+    "/wct-sauce",
+    "/web-component-tester"
+  ],
+  "_resolved": "https://registry.npmjs.org/cleankill/-/cleankill-2.0.0.tgz",
+  "_shasum": "59830dfc8b411d53dc72ad09d45a78ea33161a91",
+  "_shrinkwrap": null,
+  "_spec": "cleankill@^2.0.0",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/web-component-tester",
+  "bugs": {
+    "url": "https://github.com/PolymerLabs/cleankill/issues"
+  },
+  "dependencies": {},
+  "description": "Hook SIGINT and cleanly shut down your async code",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "59830dfc8b411d53dc72ad09d45a78ea33161a91",
+    "tarball": "https://registry.npmjs.org/cleankill/-/cleankill-2.0.0.tgz"
+  },
+  "engine": ">=4",
+  "gitHead": "095f5823b998007735b3189879b15e43789600fe",
+  "homepage": "https://github.com/PolymerLabs/cleankill",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "azakus",
+      "email": "dfreedm2@gmail.com"
+    },
+    {
+      "name": "garlicnation",
+      "email": "ajo@google.com"
+    },
+    {
+      "name": "justinfagnani",
+      "email": "justin@fagnani.com"
+    },
+    {
+      "name": "nevir",
+      "email": "ian@nevir.net"
+    },
+    {
+      "name": "polymer",
+      "email": "admin@polymer-project.org"
+    },
+    {
+      "name": "rictic",
+      "email": "rictic@gmail.com"
+    }
+  ],
+  "name": "cleankill",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolymerLabs/cleankill.git"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "typings": "./index.d.ts",
+  "version": "2.0.0"
+}

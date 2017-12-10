@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@types/babel-core@^6.7.14",
+        "scope": "@types",
+        "escapedName": "@types%2fbabel-core",
+        "name": "@types/babel-core",
+        "rawSpec": "^6.7.14",
+        "spec": ">=6.7.14 <7.0.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polymer-cli"
+    ]
+  ],
+  "_from": "@types/babel-core@>=6.7.14 <7.0.0",
+  "_id": "@types/babel-core@6.25.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@types/babel-core",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/babel-core-6.25.3.tgz_1508890817314_0.5322628074791282"
+  },
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/babel-core@^6.7.14",
+    "scope": "@types",
+    "escapedName": "@types%2fbabel-core",
+    "name": "@types/babel-core",
+    "rawSpec": "^6.7.14",
+    "spec": ">=6.7.14 <7.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/polymer-cli",
+    "/polyserve"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/babel-core/-/babel-core-6.25.3.tgz",
+  "_shasum": "c7fda09007375ae89942307917ed21ed309a1c2a",
+  "_shrinkwrap": null,
+  "_spec": "@types/babel-core@^6.7.14",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polymer-cli",
+  "contributors": [
+    {
+      "name": "Troy Gerwien",
+      "url": "https://github.com/yortus"
+    },
+    {
+      "name": "Marvin Hagemeister",
+      "url": "https://github.com/marvinhagemeister"
+    }
+  ],
+  "dependencies": {
+    "@types/babel-generator": "*",
+    "@types/babel-template": "*",
+    "@types/babel-traverse": "*",
+    "@types/babel-types": "*",
+    "@types/babylon": "*"
+  },
+  "description": "TypeScript definitions for babel-core",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-OlUjfM+Qv+XwcaucEiekBIhfAYe4q4ruvQZZcCkOtQZ27Hykxm1LLY2s0mE6LtP9XQt6x+TUvS70KW2e8Mz0ZA==",
+    "shasum": "c7fda09007375ae89942307917ed21ed309a1c2a",
+    "tarball": "https://registry.npmjs.org/@types/babel-core/-/babel-core-6.25.3.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ts-npm-types@microsoft.com"
+    }
+  ],
+  "name": "@types/babel-core",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.3",
+  "typesPublisherContentHash": "15ce70182148b250d7ca390e9fe14cd848c2bb7646425baa61c68320160361d6",
+  "version": "6.25.3"
+}

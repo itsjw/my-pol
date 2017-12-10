@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "css-slam@^2.0.2",
+        "scope": null,
+        "escapedName": "css-slam",
+        "name": "css-slam",
+        "rawSpec": "^2.0.2",
+        "spec": ">=2.0.2 <3.0.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polymer-cli"
+    ]
+  ],
+  "_from": "css-slam@>=2.0.2 <3.0.0",
+  "_id": "css-slam@2.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/css-slam",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/css-slam-2.0.2.tgz_1506965360184_0.27637996594421566"
+  },
+  "_npmUser": {
+    "name": "azakus",
+    "email": "dfreedm2@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "css-slam@^2.0.2",
+    "scope": null,
+    "escapedName": "css-slam",
+    "name": "css-slam",
+    "rawSpec": "^2.0.2",
+    "spec": ">=2.0.2 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/polymer-cli"
+  ],
+  "_resolved": "https://registry.npmjs.org/css-slam/-/css-slam-2.0.2.tgz",
+  "_shasum": "356ab778cae1a777f35842e7192d5f279cd0153a",
+  "_shrinkwrap": null,
+  "_spec": "css-slam@^2.0.2",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polymer-cli",
+  "author": {
+    "name": "The Polymer Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerLabs/css-slam/issues"
+  },
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "command-line-usage": "^3.0.5",
+    "dom5": "^2.0.1",
+    "parse5": "^2.2.3",
+    "shady-css-parser": "^0.1.0"
+  },
+  "description": "Minimal CSS, fast",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.8.0",
+    "mocha": "^3.5.3",
+    "vinyl": "^2.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4cFIlPuteucnKCZa68rB/Pd3uV+DDc7UwP3PVmlEwxTi92WdesRc9Ddbzw6/+RunF09tNK3sSkLERBFO1DjKcg==",
+    "shasum": "356ab778cae1a777f35842e7192d5f279cd0153a",
+    "tarball": "https://registry.npmjs.org/css-slam/-/css-slam-2.0.2.tgz"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "gitHead": "583e91021d52529299f296b0af8e638001b97952",
+  "homepage": "https://github.com/PolymerLabs/css-slam#readme",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "azakus",
+      "email": "dfreedm2@gmail.com"
+    },
+    {
+      "name": "justinfagnani",
+      "email": "justin@fagnani.com"
+    },
+    {
+      "name": "polymer",
+      "email": "admin@polymer-project.org"
+    }
+  ],
+  "name": "css-slam",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolymerLabs/css-slam.git"
+  },
+  "scripts": {
+    "test": "eslint bin/css-slam **/*.js && mocha --ui tdd"
+  },
+  "version": "2.0.2"
+}

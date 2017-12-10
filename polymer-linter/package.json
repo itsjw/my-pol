@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "polymer-linter@^2.0.2",
+        "scope": null,
+        "escapedName": "polymer-linter",
+        "name": "polymer-linter",
+        "rawSpec": "^2.0.2",
+        "spec": ">=2.0.2 <3.0.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polymer-cli"
+    ]
+  ],
+  "_from": "polymer-linter@>=2.0.2 <3.0.0",
+  "_id": "polymer-linter@2.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/polymer-linter",
+  "_nodeVersion": "8.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/polymer-linter-2.3.0.tgz_1511216795932_0.30735680600628257"
+  },
+  "_npmUser": {
+    "name": "polymer",
+    "email": "admin@polymer-project.org"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "polymer-linter@^2.0.2",
+    "scope": null,
+    "escapedName": "polymer-linter",
+    "name": "polymer-linter",
+    "rawSpec": "^2.0.2",
+    "spec": ">=2.0.2 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/polymer-cli"
+  ],
+  "_resolved": "https://registry.npmjs.org/polymer-linter/-/polymer-linter-2.3.0.tgz",
+  "_shasum": "467fd67d9c1ee151963e2d6cce72fa80810800a6",
+  "_shrinkwrap": null,
+  "_spec": "polymer-linter@^2.0.2",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polymer-cli",
+  "author": {
+    "name": "The Polymer Project authors"
+  },
+  "bugs": {
+    "url": "https://github.com/Polymer/polymer-linter/issues"
+  },
+  "dependencies": {
+    "@types/estree": "0.0.34",
+    "@types/fast-levenshtein": "0.0.1",
+    "@types/node": "^6",
+    "@types/parse5": "^2.2.34",
+    "css-what": "^2.1.0",
+    "dom5": "^2.0.0",
+    "estraverse": "^4.2.0",
+    "fast-levenshtein": "^2.0.6",
+    "parse5": "^2.2.1",
+    "polymer-analyzer": "^2.7.0",
+    "stable": "^0.1.6",
+    "strip-indent": "^2.0.0"
+  },
+  "description": "Lint Polymer!",
+  "devDependencies": {
+    "@polymer/tools-common": "^1.0.1",
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "bower": "^1.8.0",
+    "chai": "^3.5.0",
+    "clang-format": "1.0.48",
+    "knuth-shuffle": "^1.0.1",
+    "mocha": "^3.1.0",
+    "source-map-support": "^0.4.3",
+    "tslint": "^4.1.1",
+    "typescript": "^2.6.1",
+    "watchy": "^0.6.6"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-9PaIK27N3YftThHH2ob2E7Q+iP8dCvYdPd+WcLB4i3HVNdTVe2giVfa4RHi2nxBVTNGRl6Pt/h0vcoQHO+P5bg==",
+    "shasum": "467fd67d9c1ee151963e2d6cce72fa80810800a6",
+    "tarball": "https://registry.npmjs.org/polymer-linter/-/polymer-linter-2.3.0.tgz"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "gitHead": "d843e7c20cd6adbf3a37b66089a29e1205b404fa",
+  "homepage": "https://github.com/Polymer/polymer-linter#readme",
+  "keywords": [
+    "polymer",
+    "lint",
+    "linter"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "lib/linter.js",
+  "maintainers": [
+    {
+      "name": "polymer",
+      "email": "admin@polymer-project.org"
+    }
+  ],
+  "name": "polymer-linter",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymer/polymer-linter.git"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf lib; mkdir -p lib",
+    "format": "find src | grep '\\.[jt]s$' | xargs clang-format --style=file -i",
+    "lint": "tslint -c tslint.json src/*.ts src/**/*.ts",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && mocha lib/test/*.js lib/test/**/*.js && npm run lint",
+    "test:integration": "npm run build && cd test/integration && bower install --silent && cd ../../ && INTEGRATION_TEST=true mocha lib/test/integration_test.js",
+    "test:watch": "watchy -w src/,test/ -- npm test --loglevel=silent"
+  },
+  "typings": "lib/linter.d.ts",
+  "version": "2.3.0"
+}

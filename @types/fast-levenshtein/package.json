@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@types/fast-levenshtein@0.0.1",
+        "scope": "@types",
+        "escapedName": "@types%2ffast-levenshtein",
+        "name": "@types/fast-levenshtein",
+        "rawSpec": "0.0.1",
+        "spec": "0.0.1",
+        "type": "version"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polymer-linter"
+    ]
+  ],
+  "_from": "@types/fast-levenshtein@0.0.1",
+  "_id": "@types/fast-levenshtein@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@types/fast-levenshtein",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/fast-levenshtein-0.0.1.tgz_1475603234374_0.05406490433961153"
+  },
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/fast-levenshtein@0.0.1",
+    "scope": "@types",
+    "escapedName": "@types%2ffast-levenshtein",
+    "name": "@types/fast-levenshtein",
+    "rawSpec": "0.0.1",
+    "spec": "0.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/polymer-linter"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/fast-levenshtein/-/fast-levenshtein-0.0.1.tgz",
+  "_shasum": "3a3615cf173645c8fca58d051e4e32824e4bd286",
+  "_shrinkwrap": null,
+  "_spec": "@types/fast-levenshtein@0.0.1",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polymer-linter",
+  "author": {
+    "name": "Mizunashi Mana",
+    "email": "https://github.com/mizunashi-mana"
+  },
+  "dependencies": {},
+  "description": "TypeScript definitions for fast-levenshtein",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "3a3615cf173645c8fca58d051e4e32824e4bd286",
+    "tarball": "https://registry.npmjs.org/@types/fast-levenshtein/-/fast-levenshtein-0.0.1.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ts-npm-types@microsoft.com"
+    }
+  ],
+  "name": "@types/fast-levenshtein",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "52391dad095a4679974e8dc4b2837fa9f9ed3c2c0795915fc73763277ffa4008",
+  "typings": "index.d.ts",
+  "version": "0.0.1"
+}

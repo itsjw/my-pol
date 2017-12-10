@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@polymer/test-fixture@^0.0.3",
+        "scope": "@polymer",
+        "escapedName": "@polymer%2ftest-fixture",
+        "name": "@polymer/test-fixture",
+        "rawSpec": "^0.0.3",
+        "spec": ">=0.0.3 <0.0.4",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/web-component-tester"
+    ]
+  ],
+  "_from": "@polymer/test-fixture@>=0.0.3 <0.0.4",
+  "_id": "@polymer/test-fixture@0.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@polymer/test-fixture",
+  "_nodeVersion": "5.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/test-fixture-0.0.3.tgz_1454459487083_0.501590582774952"
+  },
+  "_npmUser": {
+    "name": "polymer",
+    "email": "admin@polymer-project.org"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@polymer/test-fixture@^0.0.3",
+    "scope": "@polymer",
+    "escapedName": "@polymer%2ftest-fixture",
+    "name": "@polymer/test-fixture",
+    "rawSpec": "^0.0.3",
+    "spec": ">=0.0.3 <0.0.4",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/web-component-tester"
+  ],
+  "_resolved": "https://registry.npmjs.org/@polymer/test-fixture/-/test-fixture-0.0.3.tgz",
+  "_shasum": "4443752697d4d9293bbc412ea0b5e4d341f149d9",
+  "_shrinkwrap": null,
+  "_spec": "@polymer/test-fixture@^0.0.3",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/web-component-tester",
+  "author": {
+    "name": "The Polymer Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/polymerelements/test-fixture/issues"
+  },
+  "dependencies": {},
+  "description": "A simple element to fixture DOM for tests",
+  "devDependencies": {
+    "web-component-tester": "^4.0.0",
+    "webcomponents.js": "^0.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4443752697d4d9293bbc412ea0b5e4d341f149d9",
+    "tarball": "https://registry.npmjs.org/@polymer/test-fixture/-/test-fixture-0.0.3.tgz"
+  },
+  "gitHead": "78d3882e1fdba69f58e05b0bff5d0122bd845ca9",
+  "homepage": "https://github.com/polymerelements/test-fixture#readme",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "testing"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "test-fixture.html",
+  "maintainers": [
+    {
+      "name": "polymer",
+      "email": "admin@polymer-project.org"
+    }
+  ],
+  "name": "@polymer/test-fixture",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polymerelements/test-fixture.git"
+  },
+  "scripts": {},
+  "version": "0.0.3"
+}

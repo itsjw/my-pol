@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@types/compression@^0.0.33",
+        "scope": "@types",
+        "escapedName": "@types%2fcompression",
+        "name": "@types/compression",
+        "rawSpec": "^0.0.33",
+        "spec": ">=0.0.33 <0.0.34",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polyserve"
+    ]
+  ],
+  "_from": "@types/compression@>=0.0.33 <0.0.34",
+  "_id": "@types/compression@0.0.33",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@types/compression",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/compression-0.0.33.tgz_1474302829752_0.20432363613508642"
+  },
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/compression@^0.0.33",
+    "scope": "@types",
+    "escapedName": "@types%2fcompression",
+    "name": "@types/compression",
+    "rawSpec": "^0.0.33",
+    "spec": ">=0.0.33 <0.0.34",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/polyserve"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/compression/-/compression-0.0.33.tgz",
+  "_shasum": "95dc733a2339aa846381d7f1377792d2553dc27d",
+  "_shrinkwrap": null,
+  "_spec": "@types/compression@^0.0.33",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polyserve",
+  "author": {
+    "name": "Santi Albo",
+    "email": "https://github.com/santialbo/"
+  },
+  "dependencies": {
+    "@types/express": "*"
+  },
+  "description": "TypeScript definitions for compression",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "95dc733a2339aa846381d7f1377792d2553dc27d",
+    "tarball": "https://registry.npmjs.org/@types/compression/-/compression-0.0.33.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ryan.cavanaugh@microsoft.com"
+    }
+  ],
+  "name": "@types/compression",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "b298f2ce171c21721943d88bd8e2dbfbec54772788db42b0e1d36225c1cb6e10",
+  "typings": "index.d.ts",
+  "version": "0.0.33"
+}

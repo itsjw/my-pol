@@ -1,0 +1,157 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "wct-local@^2.0.16",
+        "scope": null,
+        "escapedName": "wct-local",
+        "name": "wct-local",
+        "rawSpec": "^2.0.16",
+        "spec": ">=2.0.16 <3.0.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/web-component-tester"
+    ]
+  ],
+  "_from": "wct-local@>=2.0.16 <3.0.0",
+  "_id": "wct-local@2.0.16",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/wct-local",
+  "_nodeVersion": "8.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/wct-local-2.0.16.tgz_1510883201421_0.9221325332764536"
+  },
+  "_npmUser": {
+    "name": "polymer",
+    "email": "admin@polymer-project.org"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "wct-local@^2.0.16",
+    "scope": null,
+    "escapedName": "wct-local",
+    "name": "wct-local",
+    "rawSpec": "^2.0.16",
+    "spec": ">=2.0.16 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/web-component-tester"
+  ],
+  "_resolved": "https://registry.npmjs.org/wct-local/-/wct-local-2.0.16.tgz",
+  "_shasum": "90fd680ec27e9264c0d3564f5ba03a8fa107213e",
+  "_shrinkwrap": null,
+  "_spec": "wct-local@^2.0.16",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/web-component-tester",
+  "bugs": {
+    "url": "https://github.com/Polymer/wct-local/issues"
+  },
+  "dependencies": {
+    "@types/chalk": "^0.4.28",
+    "@types/express": "^4.0.30",
+    "@types/freeport": "^1.0.19",
+    "@types/launchpad": "^0.6.0",
+    "@types/node": "^6.0.31",
+    "@types/which": "^1.0.27",
+    "chalk": "^1.1.1",
+    "cleankill": "^2.0.0",
+    "freeport": "^1.0.4",
+    "launchpad": "^0.6.0",
+    "promisify-node": "^0.4.0",
+    "selenium-standalone": "^5.8.0",
+    "which": "^1.0.8"
+  },
+  "description": "WCT plugin that enables support for local browsers via Selenium",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "tools-common": "github:polymer/tools-common#aa1c22d",
+    "tslint": "^3.14.0",
+    "typescript": "^2.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-htO30k1yBRkct3ifeFVMxOUgrLeeGwaQ19NT4bGNqiI4mYeCV4uBlzpAkBFJMP+vE67Q9j08xoTGjK/xBaZW7w==",
+    "shasum": "90fd680ec27e9264c0d3564f5ba03a8fa107213e",
+    "tarball": "https://registry.npmjs.org/wct-local/-/wct-local-2.0.16.tgz"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "gitHead": "ee1f7bab9859c50678eb9ac3a1c80b11a8605795",
+  "homepage": "https://github.com/Polymer/wct-local",
+  "keywords": [
+    "wct",
+    "web-component-tester",
+    "plugin"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "lib/plugin.js",
+  "maintainers": [
+    {
+      "name": "azakus",
+      "email": "dfreedm2@gmail.com"
+    },
+    {
+      "name": "garlicnation",
+      "email": "ajo@google.com"
+    },
+    {
+      "name": "nevir",
+      "email": "ian@nevir.net"
+    },
+    {
+      "name": "polymer",
+      "email": "admin@polymer-project.org"
+    }
+  ],
+  "name": "wct-local",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymer/wct-local.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "gulp lint",
+    "postinstall": "node scripts/postinstall.js",
+    "prepublish": "tsc"
+  },
+  "selenium-overrides": {
+    "version": "3.0.1",
+    "drivers": {
+      "firefox": {
+        "version": "0.11.1"
+      },
+      "chrome": {},
+      "ie": {}
+    }
+  },
+  "typings": "lib/plugin.d.ts",
+  "version": "2.0.16",
+  "wct-plugin": {
+    "cli-options": {
+      "browsers": {
+        "help": "Local browsers to run tests on, or 'all'.",
+        "full": "local",
+        "metavar": "NAME",
+        "abbr": "l",
+        "list": true
+      },
+      "seleniumArgs": {
+        "help": "Additional selenium server arguments. Port is auto-selected.",
+        "full": "selenium-arg",
+        "metavar": "ARG",
+        "list": true
+      },
+      "skipSeleniumInstall": {
+        "help": "Skip trying to install selenium.",
+        "full": "skip-selenium-install",
+        "flag": true
+      }
+    }
+  }
+}

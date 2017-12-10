@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "feature-detect-es6@^1.3.1",
+        "scope": null,
+        "escapedName": "feature-detect-es6",
+        "name": "feature-detect-es6",
+        "rawSpec": "^1.3.1",
+        "spec": ">=1.3.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/command-line-args"
+    ]
+  ],
+  "_from": "feature-detect-es6@>=1.3.1 <2.0.0",
+  "_id": "feature-detect-es6@1.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/feature-detect-es6",
+  "_nodeVersion": "8.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/feature-detect-es6-1.4.0.tgz_1512221593313_0.6364554325118661"
+  },
+  "_npmUser": {
+    "name": "75lb",
+    "email": "75pound@gmail.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "feature-detect-es6@^1.3.1",
+    "scope": null,
+    "escapedName": "feature-detect-es6",
+    "name": "feature-detect-es6",
+    "rawSpec": "^1.3.1",
+    "spec": ">=1.3.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/command-line-args",
+    "/command-line-commands",
+    "/command-line-usage",
+    "/table-layout",
+    "/wordwrapjs"
+  ],
+  "_resolved": "https://registry.npmjs.org/feature-detect-es6/-/feature-detect-es6-1.4.0.tgz",
+  "_shasum": "82697c2f25f1c45fa1d885c4d74c5be308da6527",
+  "_shrinkwrap": null,
+  "_spec": "feature-detect-es6@^1.3.1",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/command-line-args",
+  "author": {
+    "name": "Lloyd Brookes",
+    "email": "75pound@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/75lb/feature-detect-es6/issues"
+  },
+  "dependencies": {
+    "array-back": "^1.0.3"
+  },
+  "description": "Detect which ES2015 features are available.",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.2",
+    "tape": "^4.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-7OnRV38WLydGuGcdm/fGk2SG9uo5ljslBSbPhCfEW5Gl0lX/IliaAVXYiYUBcI0UHTbepqO4T1SkJ74K8gtcDg==",
+    "shasum": "82697c2f25f1c45fa1d885c4d74c5be308da6527",
+    "tarball": "https://registry.npmjs.org/feature-detect-es6/-/feature-detect-es6-1.4.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "ee62b19e612bd00a8902fa91aef67328987cd6f2",
+  "homepage": "https://github.com/75lb/feature-detect-es6#readme",
+  "keywords": [
+    "detect",
+    "es6",
+    "feature",
+    "class",
+    "arrow function",
+    "let",
+    "array",
+    "Map",
+    "Set",
+    "generator",
+    "promise",
+    "template string",
+    "symbol",
+    "destructuring",
+    "language",
+    "es2015",
+    "spread",
+    "default parameter value"
+  ],
+  "license": "MIT",
+  "main": "./lib/feature-detect-es6.js",
+  "maintainers": [
+    {
+      "name": "75lb",
+      "email": "75pound@gmail.com"
+    }
+  ],
+  "name": "feature-detect-es6",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/75lb/feature-detect-es6.git"
+  },
+  "scripts": {
+    "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo",
+    "test": "tape test/*.js"
+  },
+  "version": "1.4.0"
+}

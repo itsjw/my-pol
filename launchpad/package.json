@@ -1,0 +1,146 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "launchpad@^0.6.0",
+        "scope": null,
+        "escapedName": "launchpad",
+        "name": "launchpad",
+        "rawSpec": "^0.6.0",
+        "spec": ">=0.6.0 <0.7.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/wct-local"
+    ]
+  ],
+  "_from": "launchpad@>=0.6.0 <0.7.0",
+  "_id": "launchpad@0.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/launchpad",
+  "_nodeVersion": "7.9.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/launchpad-0.6.0.tgz_1493324418351_0.9041602436918765"
+  },
+  "_npmUser": {
+    "name": "daffl",
+    "email": "daff@neyeon.de"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {
+    "lodash": "4.17.4"
+  },
+  "_requested": {
+    "raw": "launchpad@^0.6.0",
+    "scope": null,
+    "escapedName": "launchpad",
+    "name": "launchpad",
+    "rawSpec": "^0.6.0",
+    "spec": ">=0.6.0 <0.7.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/wct-local"
+  ],
+  "_resolved": "https://registry.npmjs.org/launchpad/-/launchpad-0.6.0.tgz",
+  "_shasum": "6a122deaa3cbd7b9bedc13e7c8dd20a90951aaa3",
+  "_shrinkwrap": null,
+  "_spec": "launchpad@^0.6.0",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/wct-local",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bitovi/launchpad/issues"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "browserstack": "^1.2.0",
+    "debug": "^2.2.0",
+    "plist": "^2.0.1",
+    "q": "^1.4.1",
+    "underscore": "^1.8.3"
+  },
+  "description": "You can launch browsers! From NodeJS! Local ones! Remote ones! Browserstack ones!",
+  "devDependencies": {
+    "decache": "^4.1.0",
+    "expect.js": "^0.3.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-release": "^0.14.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^3.0.2",
+    "phantomjs": "^2.1.7",
+    "useragent": "^2.1.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6a122deaa3cbd7b9bedc13e7c8dd20a90951aaa3",
+    "tarball": "https://registry.npmjs.org/launchpad/-/launchpad-0.6.0.tgz"
+  },
+  "engines": {
+    "node": "^0.12"
+  },
+  "gitHead": "944bf93aea4c4dc11d7072ded432a2858e97ee5f",
+  "homepage": "https://github.com/bitovi/launchpad",
+  "keywords": [
+    "browsers",
+    "launcher",
+    "chrome",
+    "ie",
+    "firefox",
+    "opera",
+    "phantomjs",
+    "browserstack"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "daffl",
+      "email": "daff@neyeon.de"
+    },
+    {
+      "name": "ekryski",
+      "email": "e.kryski@gmail.com"
+    },
+    {
+      "name": "matthewp",
+      "email": "matthew@matthewphillips.info"
+    },
+    {
+      "name": "phillipskevin",
+      "email": "kphillips86@gmail.com"
+    }
+  ],
+  "name": "launchpad",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bitovi/launchpad.git"
+  },
+  "scripts": {
+    "publish": "git push origin && git push origin --tags",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish",
+    "release:pre": "npm version prerelease && npm publish",
+    "test": "grunt test --stack"
+  },
+  "version": "0.6.0",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^0.12"
+      },
+      "pkgid": "launchpad@0.6.0"
+    }
+  ]
+}

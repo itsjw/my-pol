@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "browser-capabilities@^0.2.0",
+        "scope": null,
+        "escapedName": "browser-capabilities",
+        "name": "browser-capabilities",
+        "rawSpec": "^0.2.0",
+        "spec": ">=0.2.0 <0.3.0",
+        "type": "range"
+      },
+      "/Users/mla/dev/mat/my-pol/node_modules/polyserve"
+    ]
+  ],
+  "_from": "browser-capabilities@>=0.2.0 <0.3.0",
+  "_id": "browser-capabilities@0.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/browser-capabilities",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/browser-capabilities-0.2.1.tgz_1508354763980_0.931445537135005"
+  },
+  "_npmUser": {
+    "name": "polymer",
+    "email": "admin@polymer-project.org"
+  },
+  "_npmVersion": "5.4.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "browser-capabilities@^0.2.0",
+    "scope": null,
+    "escapedName": "browser-capabilities",
+    "name": "browser-capabilities",
+    "rawSpec": "^0.2.0",
+    "spec": ">=0.2.0 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/polyserve"
+  ],
+  "_resolved": "https://registry.npmjs.org/browser-capabilities/-/browser-capabilities-0.2.1.tgz",
+  "_shasum": "9522ac4c0f39c351fee467bb54afad248a79958d",
+  "_shrinkwrap": null,
+  "_spec": "browser-capabilities@^0.2.0",
+  "_where": "/Users/mla/dev/mat/my-pol/node_modules/polyserve",
+  "author": {
+    "name": "The Polymer Project Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/Polymer/browser-capabilities/issues"
+  },
+  "dependencies": {
+    "@types/ua-parser-js": "^0.7.31",
+    "ua-parser-js": "^0.7.14"
+  },
+  "description": "Detect browser capabilities from a user agent string.",
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.1",
+    "clang-format": "^1.0.53",
+    "mocha": "^3.5.0",
+    "source-map-support": "^0.4.15",
+    "typescript": "^2.4.2",
+    "watchy": "^0.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-huj8A1CGx28XvsgZvbkjWul+sR3NqQHr0FOvq6GcOWFJ7n4eKBOSNzmmPCRbA49bV5W8P7cbN5274fvsTEL7hw==",
+    "shasum": "9522ac4c0f39c351fee467bb54afad248a79958d",
+    "tarball": "https://registry.npmjs.org/browser-capabilities/-/browser-capabilities-0.2.1.tgz"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "gitHead": "c09c3c4dfe36a02ed0bc3490742dab4701dc47b5",
+  "homepage": "https://github.com/Polymer/browser-capabilities#readme",
+  "license": "BSD-3-Clause",
+  "main": "lib/browser-capabilities.js",
+  "maintainers": [
+    {
+      "name": "polymer",
+      "email": "admin@polymer-project.org"
+    }
+  ],
+  "name": "browser-capabilities",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymer/browser-capabilities.git"
+  },
+  "scripts": {
+    "build": "rm -Rf lib/ && tsc",
+    "build:watch": "tsc --watch",
+    "format": "find src -name '*.ts' | xargs clang-format --style=file -i",
+    "test": "npm run build && mocha",
+    "test:watch": "watchy -w src -- npm run test"
+  },
+  "types": "lib/browser-capabilities.d.ts",
+  "version": "0.2.1"
+}
